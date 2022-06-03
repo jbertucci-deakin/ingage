@@ -528,7 +528,7 @@ section {
   text-align: center;
 }
 .full {
-  height: 40vh;
+  min-height: 40vh;
 }
 .about .content h3 {
   font-weight: 600;
