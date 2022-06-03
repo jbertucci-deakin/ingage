@@ -410,6 +410,9 @@ input, textarea {
   background: #FFF;
   color: #F1394B;
 }
+#hero img {
+  padding: 32px;
+}
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
