@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #C62C3B;
+  color: C62C3B;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ input, textarea {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #F1394B;
-  border-top-color: #e7e4fe;
+  border-top-color: #232529;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -125,7 +125,7 @@ input, textarea {
   padding: 20px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: #F1394BCC;
+  background: #F1394B;
   padding: 12px 0;
 }
 #header .logo {
@@ -403,10 +403,14 @@ input, textarea {
   color: #fff;
   border: 2px solid #fff;
 }
+#hero .btn-get-started i {
+  padding-left: 8px;
+}
 #hero .btn-get-started:hover {
-  background: #2E3035;
+  background: #FFF;
   color: #F1394B;
 }
+
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -518,6 +522,10 @@ section {
 .about {
   padding: 120px 0;
   background-color: #2E3035;
+  text-align: center;
+}
+.full {
+  height: 40vh;
 }
 .about .content h3 {
   font-weight: 600;
@@ -549,17 +557,17 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #F1394B 0%, #F1394B 100%);
+  background: linear-gradient(45deg, #F1394B 0%, #C62C3B 100%);
   position: relative;
 }
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #F1394B 0%, #F1394B 100%);
+  background: linear-gradient(180deg, #F1394B 0%, #C62C3B 100%);
 }
 .about .content .read-more i {
   font-size: 22px;
   position: absolute;
-  right: 20px;
-  top: 12px;
+  right: 18px;
+  top: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -971,7 +979,7 @@ section {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #F1394B;
+  color: #fff;
   background: #454954;
 }
 .pricing h4 {
@@ -1018,7 +1026,7 @@ section {
   text-align: center;
 }
 .pricing .btn-buy {
-  background: linear-gradient(42deg, #F1394B 0%, #F1394B 100%);
+  background: linear-gradient(42deg, #F1394B 0%, #C62C3B 100%);
   display: inline-block;
   padding: 10px 35px;
   border-radius: 4px;
@@ -1031,7 +1039,7 @@ section {
   transition: 0.3s;
 }
 .pricing .btn-buy:hover {
-  background: linear-gradient(180deg, #F1394B 0%, #F1394B 100%);
+  background: linear-gradient(180deg, #F1394B 0%, #C62C3B 100%);
 }
 .pricing .featured h3 {
   color: #fff;
@@ -1067,7 +1075,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #F1394B 0%, #C62C3B 100%);
+  background: #C62C3B;
 }
 .faq .section-title h2, .faq .section-title p {
   color: #fff;
@@ -1087,7 +1095,7 @@ section {
 }
 .faq .faq-list li {
   padding: 30px;
-  background: #fff;
+  background: #F1394B;
   border-radius: 5px;
   position: relative;
 }
@@ -1100,14 +1108,15 @@ section {
   font-weight: 500;
   padding: 0 30px;
   outline: none;
-  cursor: poOpen Sans;
+  cursor: pointer;
+  color: #fff;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #C62C3B;
+  color: #fff;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1123,10 +1132,10 @@ section {
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #F1394B;
+  color: #fff;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #F1394B;
+  color: #fff;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1264,7 +1273,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f2f6f9;
+  background: #232529;
   min-height: 40px;
   margin-top: 85px;
 }
@@ -1291,7 +1300,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #3c6387;
+  color: #fff;
   content: "/";
 }
 @media (max-width: 768px) {
