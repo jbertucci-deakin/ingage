@@ -211,11 +211,11 @@ input, textarea {
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid #fff;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #F1394B;
+  background-color: #fff;
 }
 .navbar .getstarted:before, .navbar li:hover > .getstarted:before {
   visibility: hidden;
